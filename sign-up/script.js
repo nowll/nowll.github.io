@@ -35,7 +35,7 @@ signInWithEmailAndPassword(auth, username, password)
     .then((userCredential) => {
       // Signed up
       const user = userCredential.user;
-      window.location.href = "http://localhost:5500/home-login/home.html";
+      window.location.href = "/home-login/home.html";
       // alert("account created");
       // ...
     })
