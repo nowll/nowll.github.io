@@ -35,7 +35,7 @@ const password = document.getElementById("password").value;
     .then((userCredential) => {
       // Signed up
       const user = userCredential.user;
-      window.location.href = "/home/home.html";
+      window.location.href = "https://nowll.github.io/home-login/home.html";
       // alert("account created");
       // ...
     })

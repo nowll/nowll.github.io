@@ -35,7 +35,7 @@ signInWithEmailAndPassword(auth, username, password)
     .then((userCredential) => {
       // Signed up
       const user = userCredential.user;
-      window.location.href = "/home-login/home.html";
+      window.location.href = "https://nowll.github.io/home-login/home.html";
       // alert("account created");
       // ...
     })
