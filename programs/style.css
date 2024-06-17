@@ -189,12 +189,14 @@ header{
 .text-box{
     color: #000;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
     font-family: "Exo 2",sans-serif;
+    /* padding-top: 0px; */
 }
 .text-box h1{
     font-size: 42px;
     margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 
@@ -252,6 +254,53 @@ header{
     margin-left: 0px;
     margin-top: 70px;
 }
+
+
+
+.programs-article-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    flex-direction: column;
+    
+}
+
+.programs-article-3 img{
+    max-width: 380px;
+    max-height: 280px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+    
+}
+
+.programs-article-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    flex-direction: column;
+    
+}
+
+.programs-article-4 img{
+    max-width: 380px;
+    max-height: 280px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 .programs-article-locked{
     display: flex;
